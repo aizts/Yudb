@@ -1,0 +1,46 @@
+{
+  "name": "aizts/yudb",
+  "type": "framework",
+  "description": "Suitable PDO-based database manipulation tools",
+  "keywords": [
+    "php",
+    "db",
+    "database",
+    "mysql",
+    "pgsql",
+    "php db",
+    "php database",
+    "php mysql",
+    "php pgsql"
+  ],
+  "homepage": "http://yudb.aizt.top",
+  "support": {
+    "issues": "https://github.com/aizts/Yudb/issues",
+    "source": "https://github.com/aizts/Yudb"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aizt Yu",
+      "email": "aizt4455@126.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-pdo": "*"
+  },
+  "suggest": {
+    "ext-pdo_mysql": "For MySQL or MariaDB database",
+    "ext-pdo_sqlsrv": "For MSSQL database on both Window/Liunx platform",
+    "ext-pdo_dblib": "For MSSQL or Sybase database on Linux/UNIX platform",
+    "ext-pdo_oci": "For Oracle database",
+    "ext-pdo_oci8": "For Oracle version 8 database",
+    "ext-pdo_pqsql": "For PostgreSQL database",
+    "ext-pdo_sqlite": "For SQLite database"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yudb\\": "src/"
+    }
+  }
+}
